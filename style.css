@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightblue;
+}
+.picture{
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+.upperpara{
+    font-size: 1.5rem;
+   font-style: oblique;
+    color: rgb(117, 117, 117);
+}
+
+.btn{
+    font-size: 20px;
+}
+.btn:hover{
+
+    background-color: cornsilk;
+}
+.contentPara{
+    font-size: 1.1rem;
+    font-style: oblique;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+.head06{
+   text-transform: uppercase;
+   color: rgb(117, 117, 117);
+}
+@media(min-width: 275px) and (max-width: 725px) {
+    .lowermaterial{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 !important;
+    }
+    .heading{
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+        text-align: center;
+    }
+}
+
